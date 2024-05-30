@@ -1,0 +1,29 @@
+============================================================= RELAZIONE =======================================================
+
+Supponiamo dal progetto mandato che il PC2 mandi un messaggio al Laptop3, 
+che sono 2 dispositivi sotto reti differenti.
+Allora, a questo punto interviene il modello ISO/OSI che fara
+"subire" al messaggio 7 passaggi sia di andata che di ritorno:
+I 7 passaggi sono (partendo dall'"upload" del PC0):
+
+1)Livello di Applicazione (Fornisce servizi di rete direttamente alle applicazioni dell'utente)
+2)Livello di Presentazione (Gestisce crittografica e la compressione dei dati)
+3)Livello di Sessione (Stabilisce, gestisce e termina le comunicazioni tra due dispositivi)
+4)Livello di Trasporto (Controlla il flusso e controlla gli errori, questo lavoro lo fanno principalmente il protcollo TCP e UDP)
+5)Livello di Rete (Gestisce il percorso dei pacchetti tra reti differenti)
+6)Livello Collegamento Dati (Gestisce il percorso dei pacchetti, dentro a una singola rete)
+7)Livello Fisico (Gestisce la trsmissione dei bit grezzi tramite cavi)
+
+Una volta fatti questi 7 passaggi, entra il gioco il processo di comunicazione:
+
+--I dati arrivano allo switch, legge l'indirizzo MAC e manda i frame al router.
+
+--Il router riceve i frame, legge l'indirizzo IP di destinazione, incapsula l'IP in un altro frame e infine
+manda il frame nuovo allo switch (contenente il MAC di destinazione).
+
+--Il secondo switch legge il frame e lo manda all'access point.
+
+--L'access point legge il frame, lo decapsula e lo spedisce al Laptop3.
+
+Infine, il Laptop3 ricevera' il pacchetto e entrera' in funzione di nuovo il modello ISO/OSI che 
+fara' eseguire lo stesso procedimento di prima ai pacchetti, ma in modo inverso (pratcamente da download).
