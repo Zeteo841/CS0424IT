@@ -1,0 +1,17 @@
+Ho fatto una scansione sulla metasploitable2 e leggendo e studiando le vulnerabilita', rilascio le 5 che mi hanno
+colpito piu di tutte.
+
+1)Apache PHP-CGI Remote Code Execution:
+Permette a un attaccante tramite codice remoto di eseguire comandi arbitrari sul server compromesso.
+
+2)Bind Shell Backdoor Detection:
+Permette l'accesso remoto non autorizzato al sistema, permettendo il controllo completo. (follia pura :) )
+
+3)phpMyAdmin SQL Injection:
+Permette SQL injection. (gia visto nella BW1)
+
+4)VNC Server 'password' Password:
+Server VNC configurato con la password predefinita 'password'.
+
+5)ISC BIND Service Downgrade / Reflected DoS
+Attacco DoS riflesso tramite ISC BIND, permette l'interruzione del servizio DNS.
