@@ -1,0 +1,33 @@
+Ho fatto una breve ricerca sul CERN: 
+
+Strumenti usati:
+- Shodan
+- whois
+- recon-ng 
+
+
+Risultati:
+
+Strumento Utilizzato: whois
+Numeri telefonici: admin phone +41 ...
+e-mail: cern.gtl@cern.ch
+fax: +41 ...
+e molto altro
+
+
+Strumento Utilizzato: Shodan
+Totale Risultati: 3,496
+Paesi: Svizzera (3,490), Sudafrica (4), Francia (2)
+Servizi: Apache HTTPd (967), OpenSSH (194), Nginx (102), Microsoft IIS HTTPd (105)
+Porte Aperte: 443 (1,032), 8443 (948), 80 (798), 22 (191)
+e molto altro, come i tipi di SO e server online
+
+
+
+Strumento Utilizzato: recon-ng
+Host Identificati: 201 (186 nuovi)
+Esempi di Host:
+www1.cern.ch (IP: 137.138.6.31)
+xml.cern.ch (CNAME: paas-apps-lb-1.cern.ch)
+
+
