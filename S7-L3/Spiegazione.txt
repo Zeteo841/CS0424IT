@@ -1,0 +1,16 @@
+
+
+FASE INIZIALE:
+-Configurazione degli IP dei due host: IP-windowsXP.png, IP-kali.png
+-Controllo del tipo di windowsXP: Tipo-windowsXP.png
+-Avvio msfconsole e verifica porta aperta 445: Porta-445-ON.png
+
+FASE SUCCESSIVA:
+-Ricerca del giusto windowsXP: Ricerca-windowsXP-giusto.png
+-Utilizzo del giusto exploit: Uso-windowsXP-SP3-Italian.png
+-Configurazione dei vari host di attacco e vittima: Controllo-lhost-rhost.png
+-Infine avvio dell'exploit
+
+FASE METERPRETER
+-Comando 'help' per visualizzare i possibili attacchi da utilizzare: Fase-meterpreter.png
+-Controllo presenza webcam: webcam-list.png
